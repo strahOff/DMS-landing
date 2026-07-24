@@ -20,7 +20,7 @@ export const ComparisonSlider = () => {
           onTouchMove={(e) => handleMove(e.touches[0].clientX)}
         >
           <SliderSide side="left">
-            <span className="text-6xl mb-4">{content.leftContent.emoji}</span>
+            <span className="text-6xl mb-4 ">{content.leftContent.emoji}</span>
             <p className="text-xl font-medium text-center">
               {content.leftContent.title}
             </p>
@@ -31,10 +31,10 @@ export const ComparisonSlider = () => {
 
           <SliderSide side="right" position={position}>
             <span className="text-6xl mb-4">{content.rightContent.emoji}</span>
-            <p className="text-xl font-medium text-white text-center">
+            <p className="text-xl font- text-gray-600 text-center">
               {content.rightContent.title}
             </p>
-            <p className="text-white/80 text-center">
+            <p className="text-gray-600 text-center">
               {content.rightContent.subtitle}
             </p>
           </SliderSide>
