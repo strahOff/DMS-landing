@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-warm-100: #f9f9f8;
+  --color-warm-500: #ff6b57;
+  --color-warm-700: #e5533d;
+  --color-mint-400: #17c3b2;
+  --color-mint-600: #0fa89a;
+  --color-graphite: #2c3e50;
+  --color-airy-50: #f3f6f9;
+  --font-family-sans: "Inter", "Manrope", sans-serif;
+}
+body {
+  font-family: var(--font-family-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
