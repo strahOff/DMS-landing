@@ -1,16 +1,31 @@
-# React + Vite
+# ДМС
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Современный адаптивный лендинг для страхового продукта ДМС с конструктором программ, интерактивным сравнением, плавной навигацией и продуманным UX.**
 
-Currently, two official plugins are available:
+> **Живая демонстрация:**(https://strahoff.github.io/DMS-landing/)) 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Стек технологий
 
-## React Compiler
+- **React 18** + **Vite 6**
+- **Tailwind CSS v4** — стилизация и кастомный дизайн-токен
+- **Framer Motion 11** — анимации и микровзаимодействия
+- **Zustand 5** — управление состоянием
+- **React Hook Form 7** + **IMaskInput** — формы и валидация
+- **React Scroll** — плавная прокрутка до секций
+- **React Intersection Observer** — отслеживание видимости
+- **Lucide React** — иконки
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Установка и запуск
 
-## Expanding the ESLint configuration
+```bash
+# 1. Клонируйте репозиторий
+git clone https://github.com/your-username/dms-landing.git
+cd dms-landing
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 2. Установите зависимости
+npm install
+
+# 3. Запустите dev-сервер
+npm run dev
+
+# 4. Откройте в браузере http://localhost:5173
