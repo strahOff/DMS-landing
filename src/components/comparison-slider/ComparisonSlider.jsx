@@ -31,7 +31,7 @@ export const ComparisonSlider = () => {
 
           <SliderSide side="right" position={position}>
             <span className="text-6xl mb-4">{content.rightContent.emoji}</span>
-            <p className="text-xl font- text-gray-600 text-center">
+            <p className="text-xl font-medium text-center">
               {content.rightContent.title}
             </p>
             <p className="text-gray-600 text-center">
